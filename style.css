@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #C85AFA;
+    --cor2: #FA5A95;
+    --cor3: #FA59F5;
+    --cor4: #945AFA;
+    --cor5: #FA655A;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--cor1);
+    color: #fff;
+}
+header h1 {
+    padding-bottom: 10px;
+    color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+nav {
+    background-color: black;
+}
+nav a {
+    color: var(--cor2);
+    margin: 15px;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+body {
+    background-color: #FA5A95;
+}
+main {
+    min-width: 100px;
+    max-width: 700px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 80px;
+    padding:  10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main p {
+    margin: 20px 25px;
+    text-align: justify;
+    text-indent: 18px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+.fotos {
+    display: flex;
+    justify-content: space-between;
+}
+body h2 {
+    padding-bottom: 10px;
+    color: var(--cor4);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+}
+footer h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+footer p{
+    padding: 10px;
+    background-color: rgb(255, 0, 238);
+    padding: auto;
+    margin: 10px 50% 10px 0px;
+    border-radius: 10px;
+}
+.pf {
+    padding: 10px;
+    background-color: rgb(255, 0, 238);
+    padding: auto;
+    margin: 10px 0px 10px 50%;
+    border-radius: 10px;
+
+
+}
+.fotos img {
+    width: 48%; /* Para garantir que as imagens não fiquem muito próximas */
+    border-radius: 10px; /* Adicione um pouco de borda arredondada se desejar */
+}
